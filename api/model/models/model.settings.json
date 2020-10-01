@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "models",
+  "info": {
+    "name": "Model"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "manufacturer": {
+      "model": "manufacturer"
+    }
+  }
+}
